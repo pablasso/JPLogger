@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5233CC1725D9A100A0504F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5233CB1725D9A100A0504F /* Foundation.framework */; };
+		5E5233D11725D9A100A0504F /* JPLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E5233D01725D9A100A0504F /* JPLogger.h */; };
+		5E5233D31725D9A100A0504F /* JPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5233D21725D9A100A0504F /* JPLogger.m */; };
+		5E70B6D01726F979005D1FD6 /* JPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6CF1726F979005D1FD6 /* JPLog.m */; };
+		5E70B6D31726FEFB005D1FD6 /* JPLoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */; };
+		5E70B6D61727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E5233C61725D9A100A0504F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				5E5233D11725D9A100A0504F /* JPLogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E5233C81725D9A100A0504F /* libJPLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJPLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5233CB1725D9A100A0504F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E5233CF1725D9A100A0504F /* JPLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPLogger-Prefix.pch"; sourceTree = "<group>"; };
+		5E5233D01725D9A100A0504F /* JPLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLogger.h; sourceTree = "<group>"; };
+		5E5233D21725D9A100A0504F /* JPLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLogger.m; sourceTree = "<group>"; };
+		5E70B6CE1726F979005D1FD6 /* JPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLog.h; sourceTree = "<group>"; };
+		5E70B6CF1726F979005D1FD6 /* JPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLog.m; sourceTree = "<group>"; };
+		5E70B6D11726FEFB005D1FD6 /* JPLoggerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStore.h; sourceTree = SOURCE_ROOT; };
+		5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStore.m; sourceTree = SOURCE_ROOT; };
+		5E70B6D41727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStoreNSUserDefaults.h; sourceTree = SOURCE_ROOT; };
+		5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStoreNSUserDefaults.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5233C51725D9A100A0504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5233CC1725D9A100A0504F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5233BF1725D9A100A0504F = {
+			isa = PBXGroup;
+			children = (
+				5E5233CD1725D9A100A0504F /* JPLogger */,
+				5E5233CA1725D9A100A0504F /* Frameworks */,
+				5E5233C91725D9A100A0504F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5233C91725D9A100A0504F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5233C81725D9A100A0504F /* libJPLogger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5233CA1725D9A100A0504F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5233CB1725D9A100A0504F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5233CD1725D9A100A0504F /* JPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				5E5233D01725D9A100A0504F /* JPLogger.h */,
+				5E5233D21725D9A100A0504F /* JPLogger.m */,
+				5E70B6D11726FEFB005D1FD6 /* JPLoggerStore.h */,
+				5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */,
+				5E70B6D41727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.h */,
+				5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */,
+				5E70B6CE1726F979005D1FD6 /* JPLog.h */,
+				5E70B6CF1726F979005D1FD6 /* JPLog.m */,
+				5E5233CE1725D9A100A0504F /* Supporting Files */,
+			);
+			path = JPLogger;
+			sourceTree = "<group>";
+		};
+		5E5233CE1725D9A100A0504F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5233CF1725D9A100A0504F /* JPLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5233C71725D9A100A0504F /* JPLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5233D61725D9A100A0504F /* Build configuration list for PBXNativeTarget "JPLogger" */;
+			buildPhases = (
+				5E5233C41725D9A100A0504F /* Sources */,
+				5E5233C51725D9A100A0504F /* Frameworks */,
+				5E5233C61725D9A100A0504F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPLogger;
+			productName = JPLogger;
+			productReference = 5E5233C81725D9A100A0504F /* libJPLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5233C01725D9A100A0504F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Juan Pablo Ortiz";
+			};
+			buildConfigurationList = 5E5233C31725D9A100A0504F /* Build configuration list for PBXProject "JPLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E5233BF1725D9A100A0504F;
+			productRefGroup = 5E5233C91725D9A100A0504F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5233C71725D9A100A0504F /* JPLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5233C41725D9A100A0504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5233D31725D9A100A0504F /* JPLogger.m in Sources */,
+				5E70B6D01726F979005D1FD6 /* JPLog.m in Sources */,
+				5E70B6D31726FEFB005D1FD6 /* JPLoggerStore.m in Sources */,
+				5E70B6D61727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E5233D41725D9A100A0504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E5233D51725D9A100A0504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5233D71725D9A100A0504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JPLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPLogger/JPLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E5233D81725D9A100A0504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JPLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPLogger/JPLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5233C31725D9A100A0504F /* Build configuration list for PBXProject "JPLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5233D41725D9A100A0504F /* Debug */,
+				5E5233D51725D9A100A0504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5233D61725D9A100A0504F /* Build configuration list for PBXNativeTarget "JPLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5233D71725D9A100A0504F /* Debug */,
+				5E5233D81725D9A100A0504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5233C01725D9A100A0504F /* Project object */;
+}
