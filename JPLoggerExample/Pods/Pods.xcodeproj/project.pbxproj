@@ -1,1304 +1,396 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03A90AA7D0E5498B99CB8336</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7286391E45C4AE58961A6FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>043834E950664110ABFDFA2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>05FA750201234E4B845EEEBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLogger.m</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLogger.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>078365DDED304678A53FAC13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLogger.h</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLogger.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>07D9A23471EC446C807FC0CA</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>49A78592FB904133AFEC22E0</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>BF90013D11B04FA8AD732645</string>
-			<key>productRefGroup</key>
-			<string>D90293361FF34937B36DF448</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FFDB24C12DB14606BF28EF19</string>
-			</array>
-		</dict>
-		<key>172F1114438B476CA39185B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CCE8E2068E4943E3B0FE1DEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>254BE5D23D714ACBB35A854F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>27626F7E3CDE45E9B8401E65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>493B345062854FFD95434934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>29F74634861E4E0AAB4911A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2C57EB4A5C6943888EF2FED7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B15EF6F49A54DA9B331F956</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>2EDE9232A0314BC684DDC882</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB8B8B605CAC4F249FB85957</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2EF21D25706C4F1D997B3746</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7C4E87D20B024094A547116E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>351FD2D827FA41F787F64318</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3533DF04BE254DFC9D14F353</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3533DF04BE254DFC9D14F353</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>374526234AD74474B27E00B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>05FA750201234E4B845EEEBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>3841486C21844EFE8F4CF7A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29F74634861E4E0AAB4911A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>389BF763E0D84072B8F39064</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3A1E9BD7D6BF4E41B5CD80E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3C07660636DB416FBDA99F38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB003726BBF94486B1CD986C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3E865CC577444A82BB0C9A27</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7C4E87D20B024094A547116E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4100EDC6314E4F61A856CB3B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77BD8BA279DF4281863E308E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>43E599E1172F4E3DA4CD48CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53E66194742642CBA3D85F47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>493B345062854FFD95434934</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>49A78592FB904133AFEC22E0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>389BF763E0D84072B8F39064</string>
-				<string>A8DC465FAE304A139E835340</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4B15EF6F49A54DA9B331F956</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerStoreNSUserDefaults.m</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerStoreNSUserDefaults.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4EB4746F207749AEBCA57E86</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BBFCC02935F8414C8CC6E942</string>
-				<string>6025727A721844D9A9FBD0A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4EE32BAE847740788D9DF7D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>254BE5D23D714ACBB35A854F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>50DDFB73092E4A588DC7CD4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6025727A721844D9A9FBD0A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>50E4C6F70F7C47C48D0AC8FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>511B14407BDD4625BB86EFF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7FCCDF742B574FAB9090B287</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>51D5C242273E4E8EAD9A852C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2EF21D25706C4F1D997B3746</string>
-				<string>3E865CC577444A82BB0C9A27</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>53E66194742642CBA3D85F47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5777145AEB3246C1BE87EBD0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5CD503AE7FAB4705956C33A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B946651F06C748DC90ED081D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5F0C9C1C17DF4532AB6F0116</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLog.m</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLog.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6025727A721844D9A9FBD0A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>path</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>64ED7D8931654716B03C8215</key>
-		<dict>
-			<key>fileRef</key>
-			<string>078365DDED304678A53FAC13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>65CBE970FAD748E6826BEF47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>71992D324E5846658734372D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>802B5EB4161B4702A824727F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>776F18F3CF6E454C925467F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DB57ABB6DED4EE69C573A68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>77BD8BA279DF4281863E308E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>780CB2C6F9AC4627A32D41CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E46882518FBB43129D8BB263</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>7B2B402A0BDE40C98790E69B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>$(PRODUCT_NAME)</string>
-			<key>dstSubfolderSpec</key>
-			<string>16</string>
-			<key>files</key>
-			<array>
-				<string>71992D324E5846658734372D</string>
-				<string>3C07660636DB416FBDA99F38</string>
-				<string>27626F7E3CDE45E9B8401E65</string>
-				<string>351FD2D827FA41F787F64318</string>
-				<string>EB5571654E9042C8B1868612</string>
-				<string>4EE32BAE847740788D9DF7D3</string>
-				<string>D741E5C1DF5D44F4B52B66EA</string>
-				<string>D5F70FC8EBCE423EA3F339A0</string>
-				<string>D71AC159484C4A0D8FDF7D4C</string>
-				<string>5CD503AE7FAB4705956C33A1</string>
-				<string>2EDE9232A0314BC684DDC882</string>
-				<string>64ED7D8931654716B03C8215</string>
-				<string>172F1114438B476CA39185B5</string>
-				<string>B8C8FE3721D445BEBC6CC5F8</string>
-				<string>D3D1A5C256074A6F871B287F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7C4E87D20B024094A547116E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7FCCDF742B574FAB9090B287</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerUpstream.m</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerUpstream.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>802B5EB4161B4702A824727F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFHTTPClient.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8398F600EE11472EA1B09425</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B639D9CABD574D69A07DC713</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Local Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DB57ABB6DED4EE69C573A68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFHTTPClient.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>943F4124807E41EF92CF38A3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>776F18F3CF6E454C925467F8</string>
-				<string>780CB2C6F9AC4627A32D41CC</string>
-				<string>3841486C21844EFE8F4CF7A2</string>
-				<string>4100EDC6314E4F61A856CB3B</string>
-				<string>43E599E1172F4E3DA4CD48CE</string>
-				<string>9829FE1E1E3748F899CB5AA3</string>
-				<string>BA4BC8945B304B4481734B0E</string>
-				<string>C89286E27A894D7F849F73B0</string>
-				<string>D08B379C2A604B749618C754</string>
-				<string>9EBCA978EA2B4B699E00E47B</string>
-				<string>374526234AD74474B27E00B0</string>
-				<string>DD50235421654A4980740540</string>
-				<string>2C57EB4A5C6943888EF2FED7</string>
-				<string>511B14407BDD4625BB86EFF4</string>
-				<string>50DDFB73092E4A588DC7CD4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9829FE1E1E3748F899CB5AA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AABC8D10F4BF46889BBCCC65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>9AFD7529F19D49BCB6347663</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AD77588E45BB49619DDF0117</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C029EC92EA04616A492385E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B86E68943B7D412B881E3C1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EBCA978EA2B4B699E00E47B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F0C9C1C17DF4532AB6F0116</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>A373F3030BC6434089EB8FCE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerStore.m</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerStore.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A8DC465FAE304A139E835340</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AABC8D10F4BF46889BBCCC65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AD77588E45BB49619DDF0117</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7286391E45C4AE58961A6FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B639D9CABD574D69A07DC713</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CB8B8B605CAC4F249FB85957</string>
-				<string>078365DDED304678A53FAC13</string>
-				<string>CCE8E2068E4943E3B0FE1DEA</string>
-				<string>FEBCB0825F5F480F85834CCA</string>
-				<string>B73AC217F75C48E4810A5ACE</string>
-				<string>5F0C9C1C17DF4532AB6F0116</string>
-				<string>05FA750201234E4B845EEEBE</string>
-				<string>A373F3030BC6434089EB8FCE</string>
-				<string>4B15EF6F49A54DA9B331F956</string>
-				<string>7FCCDF742B574FAB9090B287</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JPLogger</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B73AC217F75C48E4810A5ACE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerUpstream.h</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerUpstream.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B86E68943B7D412B881E3C1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>802B5EB4161B4702A824727F</string>
-				<string>BB003726BBF94486B1CD986C</string>
-				<string>493B345062854FFD95434934</string>
-				<string>3533DF04BE254DFC9D14F353</string>
-				<string>F08CD54600EA402DA1E47D28</string>
-				<string>254BE5D23D714ACBB35A854F</string>
-				<string>E6F744E5D1AD483CB307DA9E</string>
-				<string>C320BCB4C27C45EEBD8115B9</string>
-				<string>043834E950664110ABFDFA2B</string>
-				<string>B946651F06C748DC90ED081D</string>
-				<string>8DB57ABB6DED4EE69C573A68</string>
-				<string>E46882518FBB43129D8BB263</string>
-				<string>29F74634861E4E0AAB4911A1</string>
-				<string>77BD8BA279DF4281863E308E</string>
-				<string>53E66194742642CBA3D85F47</string>
-				<string>AABC8D10F4BF46889BBCCC65</string>
-				<string>C865B87895464AB4A7616071</string>
-				<string>3A1E9BD7D6BF4E41B5CD80E1</string>
-				<string>50E4C6F70F7C47C48D0AC8FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8C8FE3721D445BEBC6CC5F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FEBCB0825F5F480F85834CCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B946651F06C748DC90ED081D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BA4BC8945B304B4481734B0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C865B87895464AB4A7616071</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>BB003726BBF94486B1CD986C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BBFCC02935F8414C8CC6E942</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C7834044993749AD8939BAED</string>
-				<string>65CBE970FAD748E6826BEF47</string>
-				<string>7C4E87D20B024094A547116E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF90013D11B04FA8AD732645</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D90293361FF34937B36DF448</string>
-				<string>9C029EC92EA04616A492385E</string>
-				<string>8398F600EE11472EA1B09425</string>
-				<string>4EB4746F207749AEBCA57E86</string>
-				<string>03A90AA7D0E5498B99CB8336</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C320BCB4C27C45EEBD8115B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C7834044993749AD8939BAED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C865B87895464AB4A7616071</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C89286E27A894D7F849F73B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A1E9BD7D6BF4E41B5CD80E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>CB8B8B605CAC4F249FB85957</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLog.h</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLog.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CCE8E2068E4943E3B0FE1DEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerStore.h</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerStore.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D08B379C2A604B749618C754</key>
-		<dict>
-			<key>fileRef</key>
-			<string>50E4C6F70F7C47C48D0AC8FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>D3D1A5C256074A6F871B287F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B73AC217F75C48E4810A5ACE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D5F70FC8EBCE423EA3F339A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C320BCB4C27C45EEBD8115B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D71AC159484C4A0D8FDF7D4C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>043834E950664110ABFDFA2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D741E5C1DF5D44F4B52B66EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6F744E5D1AD483CB307DA9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D90293361FF34937B36DF448</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5777145AEB3246C1BE87EBD0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD50235421654A4980740540</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A373F3030BC6434089EB8FCE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>E46882518FBB43129D8BB263</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E6F744E5D1AD483CB307DA9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E7286391E45C4AE58961A6FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EB5571654E9042C8B1868612</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F08CD54600EA402DA1E47D28</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F08CD54600EA402DA1E47D28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FEBCB0825F5F480F85834CCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JPLoggerStoreNSUserDefaults.h</string>
-			<key>path</key>
-			<string>../../JPLogger/JPLoggerStoreNSUserDefaults.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FFDB24C12DB14606BF28EF19</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>51D5C242273E4E8EAD9A852C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>943F4124807E41EF92CF38A3</string>
-				<string>7B2B402A0BDE40C98790E69B</string>
-				<string>9AFD7529F19D49BCB6347663</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>5777145AEB3246C1BE87EBD0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>07D9A23471EC446C807FC0CA</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172F1114438B476CA39185B5 /* JPLoggerStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCE8E2068E4943E3B0FE1DEA /* JPLoggerStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27626F7E3CDE45E9B8401E65 /* AFImageRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 493B345062854FFD95434934 /* AFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C57EB4A5C6943888EF2FED7 /* JPLoggerStoreNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B15EF6F49A54DA9B331F956 /* JPLoggerStoreNSUserDefaults.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2EDE9232A0314BC684DDC882 /* JPLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB8B8B605CAC4F249FB85957 /* JPLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351FD2D827FA41F787F64318 /* AFJSONRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3533DF04BE254DFC9D14F353 /* AFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374526234AD74474B27E00B0 /* JPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FA750201234E4B845EEEBE /* JPLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3841486C21844EFE8F4CF7A2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F74634861E4E0AAB4911A1 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3C07660636DB416FBDA99F38 /* AFHTTPRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB003726BBF94486B1CD986C /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4100EDC6314E4F61A856CB3B /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BD8BA279DF4281863E308E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		43E599E1172F4E3DA4CD48CE /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E66194742642CBA3D85F47 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4EE32BAE847740788D9DF7D3 /* AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 254BE5D23D714ACBB35A854F /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50DDFB73092E4A588DC7CD4A /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025727A721844D9A9FBD0A7 /* PodsDummy_Pods.m */; };
+		511B14407BDD4625BB86EFF4 /* JPLoggerUpstream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCDF742B574FAB9090B287 /* JPLoggerUpstream.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5CD503AE7FAB4705956C33A1 /* UIImageView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B946651F06C748DC90ED081D /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E88D86317284A7D006AEE1A /* JPLoggerUpstreamRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E88D86217284A7D006AEE1A /* JPLoggerUpstreamRest.m */; };
+		64ED7D8931654716B03C8215 /* JPLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078365DDED304678A53FAC13 /* JPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71992D324E5846658734372D /* AFHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 802B5EB4161B4702A824727F /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776F18F3CF6E454C925467F8 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB57ABB6DED4EE69C573A68 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		780CB2C6F9AC4627A32D41CC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E46882518FBB43129D8BB263 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9829FE1E1E3748F899CB5AA3 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC8D10F4BF46889BBCCC65 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9EBCA978EA2B4B699E00E47B /* JPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C9C1C17DF4532AB6F0116 /* JPLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AD77588E45BB49619DDF0117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7286391E45C4AE58961A6FD /* Foundation.framework */; };
+		B8C8FE3721D445BEBC6CC5F8 /* JPLoggerStoreNSUserDefaults.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEBCB0825F5F480F85834CCA /* JPLoggerStoreNSUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4BC8945B304B4481734B0E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C865B87895464AB4A7616071 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C89286E27A894D7F849F73B0 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E9BD7D6BF4E41B5CD80E1 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D08B379C2A604B749618C754 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4C6F70F7C47C48D0AC8FD /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D3D1A5C256074A6F871B287F /* JPLoggerUpstream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B73AC217F75C48E4810A5ACE /* JPLoggerUpstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F70FC8EBCE423EA3F339A0 /* AFURLConnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C320BCB4C27C45EEBD8115B9 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71AC159484C4A0D8FDF7D4C /* AFXMLRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 043834E950664110ABFDFA2B /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D741E5C1DF5D44F4B52B66EA /* AFPropertyListRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E6F744E5D1AD483CB307DA9E /* AFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD50235421654A4980740540 /* JPLoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A373F3030BC6434089EB8FCE /* JPLoggerStore.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EB5571654E9042C8B1868612 /* AFNetworkActivityIndicatorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F08CD54600EA402DA1E47D28 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B2B402A0BDE40C98790E69B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				71992D324E5846658734372D /* AFHTTPClient.h in CopyFiles */,
+				3C07660636DB416FBDA99F38 /* AFHTTPRequestOperation.h in CopyFiles */,
+				27626F7E3CDE45E9B8401E65 /* AFImageRequestOperation.h in CopyFiles */,
+				351FD2D827FA41F787F64318 /* AFJSONRequestOperation.h in CopyFiles */,
+				EB5571654E9042C8B1868612 /* AFNetworkActivityIndicatorManager.h in CopyFiles */,
+				4EE32BAE847740788D9DF7D3 /* AFNetworking.h in CopyFiles */,
+				D741E5C1DF5D44F4B52B66EA /* AFPropertyListRequestOperation.h in CopyFiles */,
+				D5F70FC8EBCE423EA3F339A0 /* AFURLConnectionOperation.h in CopyFiles */,
+				D71AC159484C4A0D8FDF7D4C /* AFXMLRequestOperation.h in CopyFiles */,
+				5CD503AE7FAB4705956C33A1 /* UIImageView+AFNetworking.h in CopyFiles */,
+				2EDE9232A0314BC684DDC882 /* JPLog.h in CopyFiles */,
+				64ED7D8931654716B03C8215 /* JPLogger.h in CopyFiles */,
+				172F1114438B476CA39185B5 /* JPLoggerStore.h in CopyFiles */,
+				B8C8FE3721D445BEBC6CC5F8 /* JPLoggerStoreNSUserDefaults.h in CopyFiles */,
+				D3D1A5C256074A6F871B287F /* JPLoggerUpstream.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		043834E950664110ABFDFA2B /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		05FA750201234E4B845EEEBE /* JPLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLogger.m; path = ../../JPLogger/JPLogger.m; sourceTree = SOURCE_ROOT; };
+		078365DDED304678A53FAC13 /* JPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLogger.h; path = ../../JPLogger/JPLogger.h; sourceTree = SOURCE_ROOT; };
+		254BE5D23D714ACBB35A854F /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		29F74634861E4E0AAB4911A1 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		3533DF04BE254DFC9D14F353 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		3A1E9BD7D6BF4E41B5CD80E1 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		493B345062854FFD95434934 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		4B15EF6F49A54DA9B331F956 /* JPLoggerStoreNSUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLoggerStoreNSUserDefaults.m; path = ../../JPLogger/JPLoggerStoreNSUserDefaults.m; sourceTree = SOURCE_ROOT; };
+		50E4C6F70F7C47C48D0AC8FD /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		53E66194742642CBA3D85F47 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		5777145AEB3246C1BE87EBD0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E88D86117284A7D006AEE1A /* JPLoggerUpstreamRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPLoggerUpstreamRest.h; path = ../../JPLogger/JPLoggerUpstreamRest.h; sourceTree = "<group>"; };
+		5E88D86217284A7D006AEE1A /* JPLoggerUpstreamRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPLoggerUpstreamRest.m; path = ../../JPLogger/JPLoggerUpstreamRest.m; sourceTree = "<group>"; };
+		5F0C9C1C17DF4532AB6F0116 /* JPLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLog.m; path = ../../JPLogger/JPLog.m; sourceTree = SOURCE_ROOT; };
+		6025727A721844D9A9FBD0A7 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		65CBE970FAD748E6826BEF47 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		77BD8BA279DF4281863E308E /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		7C4E87D20B024094A547116E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FCCDF742B574FAB9090B287 /* JPLoggerUpstream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLoggerUpstream.m; path = ../../JPLogger/JPLoggerUpstream.m; sourceTree = SOURCE_ROOT; };
+		802B5EB4161B4702A824727F /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		8DB57ABB6DED4EE69C573A68 /* AFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		A373F3030BC6434089EB8FCE /* JPLoggerStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLoggerStore.m; path = ../../JPLogger/JPLoggerStore.m; sourceTree = SOURCE_ROOT; };
+		AABC8D10F4BF46889BBCCC65 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		B73AC217F75C48E4810A5ACE /* JPLoggerUpstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLoggerUpstream.h; path = ../../JPLogger/JPLoggerUpstream.h; sourceTree = SOURCE_ROOT; };
+		B946651F06C748DC90ED081D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		BB003726BBF94486B1CD986C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		C320BCB4C27C45EEBD8115B9 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		C7834044993749AD8939BAED /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		C865B87895464AB4A7616071 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		CB8B8B605CAC4F249FB85957 /* JPLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLog.h; path = ../../JPLogger/JPLog.h; sourceTree = SOURCE_ROOT; };
+		CCE8E2068E4943E3B0FE1DEA /* JPLoggerStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLoggerStore.h; path = ../../JPLogger/JPLoggerStore.h; sourceTree = SOURCE_ROOT; };
+		E46882518FBB43129D8BB263 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		E6F744E5D1AD483CB307DA9E /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		E7286391E45C4AE58961A6FD /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F08CD54600EA402DA1E47D28 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		FEBCB0825F5F480F85834CCA /* JPLoggerStoreNSUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLoggerStoreNSUserDefaults.h; path = ../../JPLogger/JPLoggerStoreNSUserDefaults.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFD7529F19D49BCB6347663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77588E45BB49619DDF0117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A90AA7D0E5498B99CB8336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7286391E45C4AE58961A6FD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB4746F207749AEBCA57E86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBFCC02935F8414C8CC6E942 /* Pods */,
+				6025727A721844D9A9FBD0A7 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8398F600EE11472EA1B09425 /* Local Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B639D9CABD574D69A07DC713 /* JPLogger */,
+			);
+			name = "Local Pods";
+			sourceTree = "<group>";
+		};
+		9C029EC92EA04616A492385E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B86E68943B7D412B881E3C1B /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B639D9CABD574D69A07DC713 /* JPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				CB8B8B605CAC4F249FB85957 /* JPLog.h */,
+				078365DDED304678A53FAC13 /* JPLogger.h */,
+				CCE8E2068E4943E3B0FE1DEA /* JPLoggerStore.h */,
+				FEBCB0825F5F480F85834CCA /* JPLoggerStoreNSUserDefaults.h */,
+				B73AC217F75C48E4810A5ACE /* JPLoggerUpstream.h */,
+				5E88D86117284A7D006AEE1A /* JPLoggerUpstreamRest.h */,
+				5E88D86217284A7D006AEE1A /* JPLoggerUpstreamRest.m */,
+				5F0C9C1C17DF4532AB6F0116 /* JPLog.m */,
+				05FA750201234E4B845EEEBE /* JPLogger.m */,
+				A373F3030BC6434089EB8FCE /* JPLoggerStore.m */,
+				4B15EF6F49A54DA9B331F956 /* JPLoggerStoreNSUserDefaults.m */,
+				7FCCDF742B574FAB9090B287 /* JPLoggerUpstream.m */,
+			);
+			name = JPLogger;
+			sourceTree = "<group>";
+		};
+		B86E68943B7D412B881E3C1B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				802B5EB4161B4702A824727F /* AFHTTPClient.h */,
+				BB003726BBF94486B1CD986C /* AFHTTPRequestOperation.h */,
+				493B345062854FFD95434934 /* AFImageRequestOperation.h */,
+				3533DF04BE254DFC9D14F353 /* AFJSONRequestOperation.h */,
+				F08CD54600EA402DA1E47D28 /* AFNetworkActivityIndicatorManager.h */,
+				254BE5D23D714ACBB35A854F /* AFNetworking.h */,
+				E6F744E5D1AD483CB307DA9E /* AFPropertyListRequestOperation.h */,
+				C320BCB4C27C45EEBD8115B9 /* AFURLConnectionOperation.h */,
+				043834E950664110ABFDFA2B /* AFXMLRequestOperation.h */,
+				B946651F06C748DC90ED081D /* UIImageView+AFNetworking.h */,
+				8DB57ABB6DED4EE69C573A68 /* AFHTTPClient.m */,
+				E46882518FBB43129D8BB263 /* AFHTTPRequestOperation.m */,
+				29F74634861E4E0AAB4911A1 /* AFImageRequestOperation.m */,
+				77BD8BA279DF4281863E308E /* AFJSONRequestOperation.m */,
+				53E66194742642CBA3D85F47 /* AFNetworkActivityIndicatorManager.m */,
+				AABC8D10F4BF46889BBCCC65 /* AFPropertyListRequestOperation.m */,
+				C865B87895464AB4A7616071 /* AFURLConnectionOperation.m */,
+				3A1E9BD7D6BF4E41B5CD80E1 /* AFXMLRequestOperation.m */,
+				50E4C6F70F7C47C48D0AC8FD /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		BBFCC02935F8414C8CC6E942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7834044993749AD8939BAED /* Pods-resources.sh */,
+				65CBE970FAD748E6826BEF47 /* Pods-prefix.pch */,
+				7C4E87D20B024094A547116E /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF90013D11B04FA8AD732645 = {
+			isa = PBXGroup;
+			children = (
+				D90293361FF34937B36DF448 /* Products */,
+				9C029EC92EA04616A492385E /* Pods */,
+				8398F600EE11472EA1B09425 /* Local Pods */,
+				4EB4746F207749AEBCA57E86 /* Targets Support Files */,
+				03A90AA7D0E5498B99CB8336 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D90293361FF34937B36DF448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5777145AEB3246C1BE87EBD0 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDB24C12DB14606BF28EF19 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D5C242273E4E8EAD9A852C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				943F4124807E41EF92CF38A3 /* Sources */,
+				7B2B402A0BDE40C98790E69B /* CopyFiles */,
+				9AFD7529F19D49BCB6347663 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5777145AEB3246C1BE87EBD0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D9A23471EC446C807FC0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 49A78592FB904133AFEC22E0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF90013D11B04FA8AD732645;
+			productRefGroup = D90293361FF34937B36DF448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDB24C12DB14606BF28EF19 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943F4124807E41EF92CF38A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776F18F3CF6E454C925467F8 /* AFHTTPClient.m in Sources */,
+				780CB2C6F9AC4627A32D41CC /* AFHTTPRequestOperation.m in Sources */,
+				3841486C21844EFE8F4CF7A2 /* AFImageRequestOperation.m in Sources */,
+				4100EDC6314E4F61A856CB3B /* AFJSONRequestOperation.m in Sources */,
+				43E599E1172F4E3DA4CD48CE /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9829FE1E1E3748F899CB5AA3 /* AFPropertyListRequestOperation.m in Sources */,
+				BA4BC8945B304B4481734B0E /* AFURLConnectionOperation.m in Sources */,
+				C89286E27A894D7F849F73B0 /* AFXMLRequestOperation.m in Sources */,
+				D08B379C2A604B749618C754 /* UIImageView+AFNetworking.m in Sources */,
+				9EBCA978EA2B4B699E00E47B /* JPLog.m in Sources */,
+				374526234AD74474B27E00B0 /* JPLogger.m in Sources */,
+				DD50235421654A4980740540 /* JPLoggerStore.m in Sources */,
+				2C57EB4A5C6943888EF2FED7 /* JPLoggerStoreNSUserDefaults.m in Sources */,
+				511B14407BDD4625BB86EFF4 /* JPLoggerUpstream.m in Sources */,
+				50DDFB73092E4A588DC7CD4A /* PodsDummy_Pods.m in Sources */,
+				5E88D86317284A7D006AEE1A /* JPLoggerUpstreamRest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EF21D25706C4F1D997B3746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4E87D20B024094A547116E /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		389BF763E0D84072B8F39064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3E865CC577444A82BB0C9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4E87D20B024094A547116E /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8DC465FAE304A139E835340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A78592FB904133AFEC22E0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389BF763E0D84072B8F39064 /* Debug */,
+				A8DC465FAE304A139E835340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D5C242273E4E8EAD9A852C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF21D25706C4F1D997B3746 /* Debug */,
+				3E865CC577444A82BB0C9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D9A23471EC446C807FC0CA /* Project object */;
+}
