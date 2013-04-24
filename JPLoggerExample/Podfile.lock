@@ -1,0 +1,18 @@
+
+PODS:
+- AFNetworking (1.2.1)
+- JPLogger (0.0.1):
+  - AFNetworking (~> 1.2.1)
+
+DEPENDENCIES:
+- JPLogger (from `../')
+
+EXTERNAL SOURCES:
+  JPLogger:
+    :local: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
+  JPLogger: b01348d9406e4668a5511339018673f08d30eb5b
+
+COCOAPODS: 0.15.2
