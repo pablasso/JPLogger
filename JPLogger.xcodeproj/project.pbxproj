@@ -11,8 +11,8 @@
 		5E5233D11725D9A100A0504F /* JPLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E5233D01725D9A100A0504F /* JPLogger.h */; };
 		5E5233D31725D9A100A0504F /* JPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5233D21725D9A100A0504F /* JPLogger.m */; };
 		5E70B6D01726F979005D1FD6 /* JPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6CF1726F979005D1FD6 /* JPLog.m */; };
-		5E70B6D31726FEFB005D1FD6 /* JPLoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */; };
-		5E70B6D61727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */; };
+		5EDD247117278C0B0072A60E /* JPLoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD246E17278C0B0072A60E /* JPLoggerStore.m */; };
+		5EDD247217278C0B0072A60E /* JPLoggerStoreNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD247017278C0B0072A60E /* JPLoggerStoreNSUserDefaults.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,10 +36,10 @@
 		5E5233D21725D9A100A0504F /* JPLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLogger.m; sourceTree = "<group>"; };
 		5E70B6CE1726F979005D1FD6 /* JPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLog.h; sourceTree = "<group>"; };
 		5E70B6CF1726F979005D1FD6 /* JPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLog.m; sourceTree = "<group>"; };
-		5E70B6D11726FEFB005D1FD6 /* JPLoggerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStore.h; sourceTree = SOURCE_ROOT; };
-		5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStore.m; sourceTree = SOURCE_ROOT; };
-		5E70B6D41727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStoreNSUserDefaults.h; sourceTree = SOURCE_ROOT; };
-		5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStoreNSUserDefaults.m; sourceTree = SOURCE_ROOT; };
+		5EDD246D17278C0B0072A60E /* JPLoggerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStore.h; sourceTree = "<group>"; };
+		5EDD246E17278C0B0072A60E /* JPLoggerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStore.m; sourceTree = "<group>"; };
+		5EDD246F17278C0B0072A60E /* JPLoggerStoreNSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoggerStoreNSUserDefaults.h; sourceTree = "<group>"; };
+		5EDD247017278C0B0072A60E /* JPLoggerStoreNSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStoreNSUserDefaults.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +84,12 @@
 			children = (
 				5E5233D01725D9A100A0504F /* JPLogger.h */,
 				5E5233D21725D9A100A0504F /* JPLogger.m */,
-				5E70B6D11726FEFB005D1FD6 /* JPLoggerStore.h */,
-				5E70B6D21726FEFB005D1FD6 /* JPLoggerStore.m */,
-				5E70B6D41727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.h */,
-				5E70B6D51727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m */,
 				5E70B6CE1726F979005D1FD6 /* JPLog.h */,
 				5E70B6CF1726F979005D1FD6 /* JPLog.m */,
+				5EDD246D17278C0B0072A60E /* JPLoggerStore.h */,
+				5EDD246E17278C0B0072A60E /* JPLoggerStore.m */,
+				5EDD246F17278C0B0072A60E /* JPLoggerStoreNSUserDefaults.h */,
+				5EDD247017278C0B0072A60E /* JPLoggerStoreNSUserDefaults.m */,
 				5E5233CE1725D9A100A0504F /* Supporting Files */,
 			);
 			path = JPLogger;
@@ -156,8 +156,8 @@
 			files = (
 				5E5233D31725D9A100A0504F /* JPLogger.m in Sources */,
 				5E70B6D01726F979005D1FD6 /* JPLog.m in Sources */,
-				5E70B6D31726FEFB005D1FD6 /* JPLoggerStore.m in Sources */,
-				5E70B6D61727002C005D1FD6 /* JPLoggerStoreNSUserDefaults.m in Sources */,
+				5EDD247117278C0B0072A60E /* JPLoggerStore.m in Sources */,
+				5EDD247217278C0B0072A60E /* JPLoggerStoreNSUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
