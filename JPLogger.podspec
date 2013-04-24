@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pablasso/JPLogger"
   s.summary      = "A remote logger for Objective-C"
   s.author       = { "Juan Pablo Ortiz" => "pablasso@gmail.com" }
-  s.source       = { :git => "git@github.com:pablasso/JPLogger.git", :branch => "master" }
+  s.source       = { :git => "~/Development/JPLogger", :branch => "master" }
   s.source_files = 'JPLogger'
   s.dependency 'AFNetworking', '~> 1.2.1'
   s.requires_arc = true
