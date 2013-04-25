@@ -3,7 +3,7 @@
 @implementation JPLoggerUpstream
 
 - (void)submit:(JPLog *)log completionBlock:(void (^)(BOOL success))block {
-    block(YES);
+    block(NO);
 }
 
 @end

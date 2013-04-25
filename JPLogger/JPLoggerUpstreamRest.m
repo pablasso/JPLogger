@@ -9,12 +9,25 @@
 
 #pragma mark - Public
 
++ (JPLoggerUpstreamRest *)upstreamWithURLString:(NSString *)urlString {
+    JPLoggerUpstreamRest *upstream = [[JPLoggerUpstreamRest alloc] init];
+    upstream.url = urlString;
+    return upstream;
+}
+
 - (void)submit:(JPLog *)log toURLString:(NSString *)urlString completionBlock:(void (^)(BOOL success))block {
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        NSLog(@"json:%@", JSON);
-    } failure:nil];
+        if (response.statusCode == 200) {
+            block(YES);
+        }
+        else {
+            block(NO);
+        }
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON){
+        NSLog(@"JPLogger failure:%@", error);
+    }];
     [operation start];
 }
 

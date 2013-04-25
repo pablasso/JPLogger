@@ -1,19 +1,20 @@
 #import <Foundation/Foundation.h>
 
 @class JPLoggerStore;
-@class JPLoggerFormatter;
 @class JPLoggerUpstream;
 
 @interface JPLogger : NSObject
 
 + (id)sharedInstance;
-- (void)setStore:(JPLoggerStore *)store;
-- (void)setFormatter:(JPLoggerFormatter *)formatter;
-- (void)setUpstream:(JPLoggerUpstream *)upstream;
-
+- (void)setupWithStore:(JPLoggerStore *)store;
+- (void)setupWithUpstream:(JPLoggerUpstream *)upstream;
 - (void)debug:(NSString *)message;
+- (void)debug:(NSString *)message withInfo:(NSDictionary *)info;
 - (void)info:(NSString *)message;
+- (void)info:(NSString *)message withInfo:(NSDictionary *)info;
 - (void)error:(NSString *)message;
+- (void)error:(NSString *)message withInfo:(NSDictionary *)info;
 - (void)fatal:(NSString *)message;
+- (void)fatal:(NSString *)message withInfo:(NSDictionary *)info;
 
 @end
