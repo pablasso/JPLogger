@@ -19,11 +19,12 @@
 - (void)submit:(JPLog *)log toURLString:(NSString *)urlString completionBlock:(void (^)(BOOL success))block {
     NSURL *fullURL = [NSURL URLWithString:urlString];
     NSURL *baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@:%@", fullURL.scheme, fullURL.host, fullURL.port]];
+    
     AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:baseURL];
     [httpClient setDefaultHeader:@"Content-Type" value:@"application/x-www-form-urlencoded"];
+    httpClient.parameterEncoding = AFFormURLParameterEncoding;
     
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    
     if (log.message && log.message.length > 0) {
         [params setObject:log.message forKey:@"message"];
     }
