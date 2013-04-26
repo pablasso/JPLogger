@@ -67,8 +67,7 @@
 #pragma mark - Private
 
 - (void)processLog:(JPLog *)log {
-    [self.upstream submit:log completionBlock:^(BOOL success){
-    }];
+    [self.upstream submit:log completionBlock:^(BOOL success){}];
 }
 
 @end
