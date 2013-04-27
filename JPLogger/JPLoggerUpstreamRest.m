@@ -18,7 +18,8 @@
 
 - (void)submit:(JPLog *)log toURLString:(NSString *)urlString completionBlock:(void (^)(BOOL success))block {
     NSURL *fullURL = [NSURL URLWithString:urlString];
-    NSURL *baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@:%@", fullURL.scheme, fullURL.host, fullURL.port]];
+    NSString *port = fullURL.port ? [NSString stringWithFormat:@":%@", fullURL.port] : @"";
+    NSURL *baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@%@", fullURL.scheme, fullURL.host, port]];
     
     AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:baseURL];
     [httpClient setDefaultHeader:@"Content-Type" value:@"application/x-www-form-urlencoded"];
@@ -36,7 +37,7 @@
     NSRange range;
     range.location = [pathComponents count] > 0 ? 1 : 0;
     range.length = [pathComponents count] - range.location;
-    NSString *path = [NSString stringWithFormat:@"/%@", [[pathComponents subarrayWithRange:range] componentsJoinedByString:@","]];
+    NSString *path = [NSString stringWithFormat:@"/%@", [[pathComponents subarrayWithRange:range] componentsJoinedByString:@"/"]];
     
     [httpClient postPath:path parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSString *responseStr = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
