@@ -1,74 +1,42 @@
 #import "JPLogger.h"
+#import "JPLoggerStore.h"
 #import "JPLoggerUpstream.h"
 #import "JPLog.h"
 
-@interface JPLogger ()
-
-@property (nonatomic, strong) JPLoggerStore *store;
-@property (nonatomic, strong) JPLoggerUpstream *upstream;
-
-@end
-
 @implementation JPLogger
-
-- (id)init {
-    if (self = [super init]) {
-        // someday this will be some sick defaults, someday.
-        self.store = nil;
-        self.upstream = nil;
-    }
-    return self;
-}
-
-+ (id)sharedInstance {
-    static dispatch_once_t once;
-    static id sharedInstance;
-    dispatch_once(&once, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    return sharedInstance;
-}
 
 #pragma mark - Public
 
-- (void)setupWithStore:(JPLoggerStore *)store {
-    self.store = store;
-}
-
-- (void)setupWithUpstream:(JPLoggerUpstream *)upstream {
-    self.upstream = upstream;
-}
-
-- (void)debug:(NSString *)message {
++ (void)debug:(NSString *)message {
     [self debug:message withInfo:nil];
 }
-- (void)debug:(NSString *)message withInfo:(NSDictionary *)info {}
++ (void)debug:(NSString *)message withInfo:(NSDictionary *)info {}
 
-- (void)info:(NSString *)message {
-    [self info:message withInfo:nil];
++ (void)info:(NSString *)message store:(JPLoggerStore *)store upstream:(JPLoggerUpstream *)upstream {
+    [self info:message withInfo:nil store:store upstream:upstream];
 }
-- (void)info:(NSString *)message withInfo:(NSDictionary *)info {
++ (void)info:(NSString *)message withInfo:(NSDictionary *)info store:(JPLoggerStore *)store upstream:(JPLoggerUpstream *)upstream {
     JPLog *log = [JPLog logWithLevel:JPLogLevelInfo];
     log.message = message;
     log.info = info;
     log.date = [NSDate date];
-    [self processLog:log];
+    [self processLog:log withStore:store andUpstream:upstream];
 }
 
-- (void)error:(NSString *)message {
++ (void)error:(NSString *)message {
     [self error:message withInfo:nil];
 }
-- (void)error:(NSString *)message withInfo:(NSDictionary *)info {}
++ (void)error:(NSString *)message withInfo:(NSDictionary *)info {}
 
-- (void)fatal:(NSString *)message {
++ (void)fatal:(NSString *)message {
     [self fatal:message withInfo:nil];
 }
-- (void)fatal:(NSString *)message withInfo:(NSDictionary *)info {}
++ (void)fatal:(NSString *)message withInfo:(NSDictionary *)info {}
 
 #pragma mark - Private
 
-- (void)processLog:(JPLog *)log {
-    [self.upstream submit:log completionBlock:^(BOOL success){}];
++ (void)processLog:(JPLog *)log withStore:(JPLoggerStore *)store andUpstream:(JPLoggerUpstream *)upstream {
+    [upstream submit:log completionBlock:^(BOOL success){}];
 }
 
 @end
