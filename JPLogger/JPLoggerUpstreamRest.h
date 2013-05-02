@@ -1,10 +1,12 @@
 #import "JPLoggerUpstream.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface JPLoggerUpstreamRest : JPLoggerUpstream
 
 @property (nonatomic, strong) NSString *url;
+@property (nonatomic) AFHTTPClientParameterEncoding parameterEncoding;
 
 + (JPLoggerUpstreamRest *)upstreamWithURLString:(NSString *)urlString;
-- (void)submit:(JPLog *)log toURLString:(NSString *)urlString completionBlock:(void (^)(BOOL success))block;
-
+- (void)setDefaultHeader:(NSString *)header value:(NSString *)value;
+    
 @end
