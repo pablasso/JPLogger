@@ -49,6 +49,7 @@
 }
 - (void)info:(NSString *)message withInfo:(NSDictionary *)info {
     JPLog *log = [JPLog logWithLevel:JPLogLevelInfo];
+    log.message = message;
     log.info = info;
     log.date = [NSDate date];
     [self processLog:log];
