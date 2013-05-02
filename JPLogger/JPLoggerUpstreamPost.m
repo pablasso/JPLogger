@@ -1,13 +1,13 @@
-#import "JPLoggerUpstreamRest.h"
+#import "JPLoggerUpstreamPost.h"
 #import "JPLog.h"
 
-@interface JPLoggerUpstreamRest ()
+@interface JPLoggerUpstreamPost ()
 
 @property (nonatomic, strong) NSMutableDictionary *headers;
 
 @end
 
-@implementation JPLoggerUpstreamRest
+@implementation JPLoggerUpstreamPost
 
 - (id)init {
     if (self = [super init]) {
@@ -23,8 +23,8 @@
 
 #pragma mark - Public
 
-+ (JPLoggerUpstreamRest *)upstreamWithURLString:(NSString *)urlString {
-    JPLoggerUpstreamRest *upstream = [[JPLoggerUpstreamRest alloc] init];
++ (JPLoggerUpstreamPost *)upstreamWithURLString:(NSString *)urlString {
+    JPLoggerUpstreamPost *upstream = [[JPLoggerUpstreamPost alloc] init];
     upstream.url = urlString;
     return upstream;
 }
