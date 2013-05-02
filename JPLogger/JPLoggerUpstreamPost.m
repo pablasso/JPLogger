@@ -46,6 +46,7 @@
     for (NSString *key in [self.headers allKeys]) {
         [httpClient setDefaultHeader:key value:self.headers[key]];
     }
+    httpClient.parameterEncoding = self.parameterEncoding;
     
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     if (log.message && log.message.length > 0) {
